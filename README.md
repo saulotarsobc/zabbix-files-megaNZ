@@ -8,6 +8,7 @@
 ## MATERIA DE APOIO
 
 * [COMO GERENCIAR MEGA.NZ NO TERMINAL COM MEGATOOLS - GABRIEL GOUVEA](https://ideatip.com.br/gerenciar-mega-nz-via-linha-de-comando/)
+* [Megatools - command line client for Mega.nz](https://megatools.megous.com/)
 
 ## [MEGATOOLS](https://manpages.debian.org/testing/megatools/index.html)
 
