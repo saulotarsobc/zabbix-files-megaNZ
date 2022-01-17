@@ -50,8 +50,20 @@ for i in "${size[@]}"; do
 done;
 ```
 
+```sh
+chmod +x meganz
+```
+
 ### Como usar?
 
 ```sh
-
+./meganz DIRETORIO_NO_MEGA EMAIL_DO_MEGA SENHA_DO_MEGA
 ```
+
+> Ex:
+
+```sh
+./meganz bkp/erp asdf@mail.com SuPerP@ass
+```
+
+![-](img/1.png)
