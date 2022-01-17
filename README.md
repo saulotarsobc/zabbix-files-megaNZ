@@ -8,11 +8,11 @@
 
 ### Cliente de linha de comando para o serviço de armazenamento em nuvem Mega
 
-> [Megatools](https://manpages.debian.org/testing/megatools/index.html) é uma coleção de programas para acessar o serviço [MEGA.NZ](https://mega.nz/) a partir da linha de comando.
+> Megatools é uma coleção de programas para acessar o serviço [MEGA.NZ](https://mega.nz/) a partir da linha de comando.
 >
-> [Megatools](https://manpages.debian.org/testing/megatools/index.html) permitem que você copie arquivos individuais, bem como árvores de diretórios inteiras de e para a nuvem. Você também pode realizar downloads de streaming, por exemplo, para visualizar vídeos e arquivos de áudio, sem precisar baixar o arquivo inteiro primeiro.
+> Megatools permitem que você copie arquivos individuais, bem como árvores de diretórios inteiras de e para a nuvem. Você também pode realizar downloads de streaming, por exemplo, para visualizar vídeos e arquivos de áudio, sem precisar baixar o arquivo inteiro primeiro.
 >
-> [Megatools](https://manpages.debian.org/testing/megatools/index.html) são robustos e otimizados para operação rápida - tão rápido quanto os servidores Mega permitem. Os requisitos de memória e a utilização da CPU são mantidos no mínimo.
+> Megatools são robustos e otimizados para operação rápida - tão rápido quanto os servidores Mega permitem. Os requisitos de memória e a utilização da CPU são mantidos no mínimo.
 
 ### INSTALAÇÃO
 
@@ -22,9 +22,11 @@ apt install megatools
 
 ## SCRIPT
 
+### PARA BAIXAR
+
 ```sh
 cd /usr/lib/zabbix/externalscripts
-nano meganz
+wget https://raw.githubusercontent.com/saulotarsobc/zabbix-files-megaNZ/main/mega.sh
 ```
 
 > Copie o script abaixo.
