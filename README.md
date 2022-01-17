@@ -2,6 +2,9 @@
 
 > Monitorar pastas e arquivos com zabbix no [MEGA.NZ](https://mega.nz/)
 
+![-](img/zabbix.jpg)
+![-](img/grafana.png)
+
 ## MATERIA DE APOIO
 
 * [COMO GERENCIAR MEGA.NZ NO TERMINAL COM MEGATOOLS - GABRIEL GOUVEA](https://ideatip.com.br/gerenciar-mega-nz-via-linha-de-comando/)
