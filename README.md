@@ -31,7 +31,7 @@ apt install megatools
 
 ```sh
 cd /usr/lib/zabbix/externalscripts
-wget https://raw.githubusercontent.com/saulotarsobc/zabbix-files-megaNZ/main/mega.sh
+wget [https://raw.githubusercontent.com/saulotarsobc/zabbix-files-megaNZ/main/mega.sh](https://raw.githubusercontent.com/saulotarsobc/zabbix-files-megaNZ/main/mega.sh)
 ```
 
 ```sh
