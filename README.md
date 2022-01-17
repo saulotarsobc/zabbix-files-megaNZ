@@ -29,8 +29,6 @@ cd /usr/lib/zabbix/externalscripts
 wget https://raw.githubusercontent.com/saulotarsobc/zabbix-files-megaNZ/main/mega.sh
 ```
 
-> Copie o script abaixo.
-
 ```sh
 #! /bin/bash
 alert(){
