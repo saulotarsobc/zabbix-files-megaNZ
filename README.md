@@ -14,6 +14,21 @@
 >
 > [Megatools](https://manpages.debian.org/testing/megatools/index.html) são robustos e otimizados para operação rápida - tão rápido quanto os servidores Mega permitem. Os requisitos de memória e a utilização da CPU são mantidos no mínimo.
 
+### Instalção
+
+```sh
+apt install megatools
+```
+
+## SCRIPT
+
+```sh
+cd /usr/lib/zabbix/externalscripts
+nano meganz
+```
+
+> Copie o script abaixo.
+
 ```sh
 #! /bin/bash
 alert(){
@@ -33,4 +48,10 @@ for i in "${size[@]}"; do
     echo "$ID|${nome[$ID]}|${size[$ID]}";
     let ID=ID+1;
 done;
+```
+
+### Como usar?
+
+```sh
+
 ```
