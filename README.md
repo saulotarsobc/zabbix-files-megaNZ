@@ -1,6 +1,14 @@
 # zabbix-files-megaNZ
 
- Monitorar pastas e arquivos com zabbix no [MEGA.NZ](https://mega.nz/);
+> Monitorar pastas e arquivos com zabbix no [MEGA.NZ](https://mega.nz/);
+
+## MEGATOOLS
+
+> Megatools é uma coleção de programas para acessar o serviço Mega.co.nz a partir da linha de comando.
+>
+> Megatools permitem que você copie arquivos individuais, bem como árvores de diretórios inteiras de e para a nuvem. Você também pode realizar downloads de streaming, por exemplo, para visualizar vídeos e arquivos de áudio, sem precisar baixar o arquivo inteiro primeiro.
+>
+> Megatools são robustos e otimizados para operação rápida - tão rápido quanto os servidores Mega permitem. Os requisitos de memória e a utilização da CPU são mantidos no mínimo.
 
 ```sh
 #! /bin/bash
