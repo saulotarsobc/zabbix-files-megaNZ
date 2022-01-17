@@ -1,8 +1,10 @@
 # Zabbix + Mega.nz
 
-## Monitorar pastas e arquivos com zabbix no MEGA.NZ
-
 > Monitorar pastas e arquivos com zabbix no [MEGA.NZ](https://mega.nz/)
+
+## MATERIA DE APOIO
+
+* [COMO GERENCIAR MEGA.NZ NO TERMINAL COM MEGATOOLS - GABRIEL GOUVEA](https://ideatip.com.br/gerenciar-mega-nz-via-linha-de-comando/)
 
 ## [MEGATOOLS](https://manpages.debian.org/testing/megatools/index.html)
 
@@ -38,8 +40,6 @@ alert(){
 if [ "$1" = "" ]; then alert; fi;
 
 dir=$1; u=$2; p=$3;
-
-megals --reload; # recarregar o cache do sistema de arquivos
 
 size=($(megals -u $u -p $p /Root/$dir -l |sed 's/.*\s\s\s//' |sed 's/\s.*//'));
 nome=($(megals -u $u -p $p  /Root/$dir -l |sed 's/.*\///'));
