@@ -14,7 +14,7 @@
 >
 > [Megatools](https://manpages.debian.org/testing/megatools/index.html) são robustos e otimizados para operação rápida - tão rápido quanto os servidores Mega permitem. Os requisitos de memória e a utilização da CPU são mantidos no mínimo.
 
-### Instalção
+### INSTALAÇÃO
 
 ```sh
 apt install megatools
