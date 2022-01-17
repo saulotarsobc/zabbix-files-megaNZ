@@ -9,8 +9,8 @@ dir=$1; u=$2; p=$3;
 
 megals --reload; # recarregar o cache do sistema de arquivos
 
-size=($(megals -u $u -p $p /Root/$dir -l |grep -E '\.ixc' |sed 's/.*\s\s\s//' |sed 's/\s.*//'));
-nome=($(megals -u $u -p $p  /Root/$dir -l |grep -E '\.ixc' |sed 's/.*\///'));
+size=($(megals -u $u -p $p /Root/$dir -l |sed 's/.*\s\s\s//' |sed 's/\s.*//'));
+nome=($(megals -u $u -p $p  /Root/$dir -l |sed 's/.*\///'));
 
 ID=0;
 echo "id|nome|size";
