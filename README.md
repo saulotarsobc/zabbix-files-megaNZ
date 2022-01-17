@@ -41,6 +41,8 @@ if [ "$1" = "" ]; then alert; fi;
 
 dir=$1; u=$2; p=$3;
 
+reload=$(megals -u $u -p $p --reload ); # recarregar o cache do sistema de arquivos
+
 size=($(megals -u $u -p $p /Root/$dir -l |sed 's/.*\s\s\s//' |sed 's/\s.*//'));
 nome=($(megals -u $u -p $p  /Root/$dir -l |sed 's/.*\///'));
 
