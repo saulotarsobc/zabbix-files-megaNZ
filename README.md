@@ -1,4 +1,6 @@
-# zabbix-files-megaNZ
+# Zabbix + Mega.nz
+
+## Monitorar pastas e arquivos com zabbix no MEGA.NZ
 
 > Monitorar pastas e arquivos com zabbix no [MEGA.NZ](https://mega.nz/);
 
